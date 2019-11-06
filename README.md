@@ -4,8 +4,15 @@ FB文章自動分享社團
 `此專案目的只為了學術技術分享，請勿拿來從事不法行為，違者自行負起法律責任`
 
 以Python套件bokeh實作出RFM動態網頁。
+<img src="https://imgur.com/undefined.png"/>
 
-
+目錄
+=================
+* [事前必要準備](#事前必要準備)
+* [How to Use](#HowtoUse)
+* [檔案說明](#檔案說明)
+    * [showTable](#showTable)
+   
  
 事前必要準備
 =================
@@ -17,9 +24,13 @@ How to Use
 <img src="https://imgur.com/Bib3wFr.png"/>
 
 2. 複製此專案的位置，並且切換至此。 `cd 檔案路徑`。
+<img src="https://imgur.com/4EwcRcs.png"/>
 
-3. 輸入 `bokeh serve 專案資料夾名稱` 開始執行server。
+3. 輸入 `bokeh serve 專案資料夾名稱` 開始執行server，若沒有修改資料夾名稱，那指令會是 `bokeh serve showTable`。
+<img src="https://imgur.com/zHpOJ3X.png"/>
 
+4. 在網頁輸入 `http://localhost:5006/` ，即可進入server網頁。
+<img src="https://imgur.com/AIZtbQ2.png"/>
 
 檔案說明
 =================
