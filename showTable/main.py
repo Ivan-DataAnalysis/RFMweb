@@ -17,7 +17,6 @@ data = dict({})
 for x in insurance.columns:
     data[x]=insurance[x]
 
-theint = [x for x in insurance.columns if insurance[x].dtype == 'int64' or insurance[x].dtype == 'float64']
 template="""
 <div style="background:<%= 
     (function colorfromint(){
