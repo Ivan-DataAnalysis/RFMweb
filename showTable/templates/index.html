@@ -1,0 +1,31 @@
+{% extends base %}
+
+{% block title %}Bokeh Crossfilter Example{% endblock %}
+
+{% block preamble %}
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #fff;
+    background: #2F2F2F;
+  }
+  .slick-column-nam {
+    color: #000;
+  }
+  /* 以下設定表格 */
+    .slick-header-columns, .slick-header-column {
+        background-color: #2F2F2F !important;
+        background-image: none !important;
+    
+    }
+    .slick-row,
+    .bk-cell-index {
+        background-color: #2F2F2F !important;
+    
+    }
+
+</style>
+{% endblock %}
