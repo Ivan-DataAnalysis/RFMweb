@@ -72,7 +72,7 @@ def makeCircle_plot(df):
     return column(thecolumn)
 
 
-makeCircle_plot(insurance)    
+ 
    
 # 畫布與選單編排
 layout = column(
