@@ -12,6 +12,7 @@ FB文章自動分享社團
 * [How to Use](#HowtoUse)
 * [檔案說明](#檔案說明)
     * [showTable](#showTable)
+    * [showCricle](#showCricle)
    
  
 事前必要準備
@@ -34,9 +35,7 @@ How to Use
 
 檔案說明
 =================
-
-### showTable
-實作將csv檔案在網頁上以表格的方式呈現，並且依顏色區隔數字大小。
+基本上分類資料夾內的檔案編排都是如下。
 
 | 檔案名稱      | 說明     |
 | ---------- | :-----------:  |
@@ -44,3 +43,11 @@ How to Use
 | insurance.csv     | 在網頁中呈現的資料。     |
 | main.py     | Python程式碼，bokeh套件的功能都寫在這裡。     |
 | theme.yaml     | bokeh server的環境設定檔案，主要是修改主題相關顏色。     |
+
+### showTable
+實作將csv檔案在網頁上以表格的方式呈現，並且依顏色區隔數字大小。
+<img src="https://imgur.com/AIZtbQ2.png"/>
+
+### showCricle
+實作將csv檔案在網頁上以圓餅圖的方式呈現，只抓取資料欄為中為數值欄位的資料。
+<img src="https://imgur.com/1WEmP4g.png"/>
