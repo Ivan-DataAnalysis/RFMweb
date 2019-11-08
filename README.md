@@ -4,7 +4,8 @@ RFM顧客資料透視
 `此專案目的只為了學術技術分享，請勿拿來從事不法行為，違者自行負起法律責任`
 
 以Python套件bokeh實作出RFM動態網頁。
-<img src="https://imgur.com/undefined.png"/>
+
+<img src="https://imgur.com/AIZtbQ2.png"/>
 
 目錄
 =================
